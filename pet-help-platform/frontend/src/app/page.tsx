@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { Heart, Camera, Users, Search, Star, Shield, TrendingUp, Award } from 'lucide-react'
 
@@ -283,9 +284,11 @@ export default function HomePage() {
               className="bg-gradient-to-br from-purple-100 to-pink-100 rounded-2xl p-6 hover:scale-105 transition"
             >
               <div className="aspect-square bg-gradient-to-br from-purple-400 to-pink-400 rounded-xl mb-4 relative overflow-hidden">
-                <img
+                <Image
                   src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=400&h=400&fit=crop"
                   alt="Барсик"
+                  width={400}
+                  height={400}
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -306,9 +309,11 @@ export default function HomePage() {
               className="bg-gradient-to-br from-blue-100 to-cyan-100 rounded-2xl p-6 hover:scale-105 transition"
             >
               <div className="aspect-square bg-gradient-to-br from-blue-400 to-cyan-400 rounded-xl mb-4 relative overflow-hidden">
-                <img
+                <Image
                   src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400&h=400&fit=crop"
                   alt="Рекс"
+                  width={400}
+                  height={400}
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -329,9 +334,11 @@ export default function HomePage() {
               className="bg-gradient-to-br from-green-100 to-teal-100 rounded-2xl p-6 hover:scale-105 transition"
             >
               <div className="aspect-square bg-gradient-to-br from-green-400 to-teal-400 rounded-xl mb-4 relative overflow-hidden">
-                <img
+                <Image
                   src="https://images.unsplash.com/photo-1573865526739-10659fec78a5?w=400&h=400&fit=crop"
                   alt="Мурка"
+                  width={400}
+                  height={400}
                   className="w-full h-full object-cover"
                 />
               </div>
