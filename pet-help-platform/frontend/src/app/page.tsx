@@ -282,7 +282,13 @@ export default function HomePage() {
               transition={{ duration: 0.5 }}
               className="bg-gradient-to-br from-purple-100 to-pink-100 rounded-2xl p-6 hover:scale-105 transition"
             >
-              <div className="aspect-square bg-gradient-to-br from-purple-400 to-pink-400 rounded-xl mb-4"></div>
+              <div className="aspect-square bg-gradient-to-br from-purple-400 to-pink-400 rounded-xl mb-4 relative overflow-hidden">
+                <img
+                  src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=400&h=400&fit=crop"
+                  alt="Барсик"
+                  className="w-full h-full object-cover"
+                />
+              </div>
               <h3 className="font-semibold text-lg mb-2">Барсик нашел дом!</h3>
               <p className="text-gray-600 text-sm mb-2">
                 Был найден на улице Амира Темура. Теперь живет в любящей семье
@@ -299,7 +305,13 @@ export default function HomePage() {
               transition={{ duration: 0.5, delay: 0.1 }}
               className="bg-gradient-to-br from-blue-100 to-cyan-100 rounded-2xl p-6 hover:scale-105 transition"
             >
-              <div className="aspect-square bg-gradient-to-br from-blue-400 to-cyan-400 rounded-xl mb-4"></div>
+              <div className="aspect-square bg-gradient-to-br from-blue-400 to-cyan-400 rounded-xl mb-4 relative overflow-hidden">
+                <img
+                  src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400&h=400&fit=crop"
+                  alt="Рекс"
+                  className="w-full h-full object-cover"
+                />
+              </div>
               <h3 className="font-semibold text-lg mb-2">Рекс выздоровел!</h3>
               <p className="text-gray-600 text-sm mb-2">
                 Прошел лечение в приюте Самарканда и готов к усыновлению
@@ -316,7 +328,13 @@ export default function HomePage() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="bg-gradient-to-br from-green-100 to-teal-100 rounded-2xl p-6 hover:scale-105 transition"
             >
-              <div className="aspect-square bg-gradient-to-br from-green-400 to-teal-400 rounded-xl mb-4"></div>
+              <div className="aspect-square bg-gradient-to-br from-green-400 to-teal-400 rounded-xl mb-4 relative overflow-hidden">
+                <img
+                  src="https://images.unsplash.com/photo-1573865526739-10659fec78a5?w=400&h=400&fit=crop"
+                  alt="Мурка"
+                  className="w-full h-full object-cover"
+                />
+              </div>
               <h3 className="font-semibold text-lg mb-2">Мурка стала звездой!</h3>
               <p className="text-gray-600 text-sm mb-2">
                 Теперь живет в Бухаре и даже снялась в рекламе корма
