@@ -55,12 +55,26 @@ npm run dev
 ```
 Frontend запустится на http://localhost:3000
 
-## Альтернативный запуск (Windows)
+## Быстрый запуск
 
-Если у вас Windows, можете использовать батник:
+### Windows
 ```bash
 cd pet-help-platform
 start-windows.bat
+```
+
+### Mac
+```bash
+cd pet-help-platform
+chmod +x start-mac.sh
+./start-mac.sh
+```
+
+### Linux
+```bash
+cd pet-help-platform
+chmod +x start-linux.sh
+./start-linux.sh
 ```
 
 ## Проверка работы
